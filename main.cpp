@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+void calc_function()
 {
     double num1, num2;
     char operation;
@@ -37,6 +37,10 @@ int main()
     default:
         std::cout << "Invalid operation entered." << std::endl;
     }
+}
 
+int main()
+{
+    calc_function();
     return 0;
 }
